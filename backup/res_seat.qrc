@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="images">
+    <file>img/logotrans.png</file>
+    <file>img/bg_seat.png</file>
+  </qresource>
+</RCC>

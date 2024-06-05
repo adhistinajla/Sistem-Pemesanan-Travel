@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="images">
+    <file>img/logotrans.png</file>
+    <file>img/cara_bayar_va.png</file>
+    <file>img/cara_bayar_qris.png</file>
+    <file>img/qris_select.png</file>
+    <file>img/bg_pembayaran.png</file>
+    <file>img/qris_unselected.png</file>
+    <file>img/va_select.png</file>
+    <file>img/va_unselected.png</file>
+  </qresource>
+</RCC>

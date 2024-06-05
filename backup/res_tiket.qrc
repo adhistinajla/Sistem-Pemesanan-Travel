@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="images">
+    <file>img/right.png</file>
+    <file>img/book.png</file>
+    <file>img/logotrans.png</file>
+    <file>img/rec.png</file>
+    <file>img/bgtiket_surabaya.png</file>
+    <file>img/bgtiket_malang.png</file>
+    <file>img/bgtiket_yogyakarta.png</file>
+    <file>img/bgtiket_bandung.png</file>
+    <file>img/bgtiket_semarang.png</file>
+    <file>img/bgtiket_bali.png</file>
+    <file>img/bgtiket_surakarta.png</file>
+    <file>img/bgtiket_jakarta.png</file>
+  </qresource>
+</RCC>

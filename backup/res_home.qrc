@@ -1,0 +1,22 @@
+<RCC>
+  <qresource prefix="images">
+    <file>img/text_atas.png</file>
+    <file>img/about_home.png</file>
+    <file>img/ads3.png</file>
+    <file>img/review_home.png</file>
+    <file>img/pp_profil.png</file>
+    <file>img/jadwal.png</file>
+    <file>img/atas_scroll.png</file>
+    <file>img/ads1.png</file>
+    <file>img/ads2.png</file>
+    <file>img/caributton.png</file>
+    <file>img/tanggal berangkat.png</file>
+    <file>img/untuk tujuan.png</file>
+    <file>img/berangkat dari.png</file>
+    <file>img/calender.png</file>
+    <file>img/down.png</file>
+    <file>img/atas.png</file>
+    <file>img/location.png</file>
+    <file>img/right.png</file>
+  </qresource>
+</RCC>

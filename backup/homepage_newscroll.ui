@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="bgpolos">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>139</y>
+     <width>1920</width>
+     <height>941</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>1345</x>
+     <y>60</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Epilogue SemiBold</family>
+     <pointsize>12</pointsize>
+     <weight>7</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+color: white;
+font: 63 12pt &quot;Epilogue SemiBold&quot;;
+text-align:right;
+}</string>
+   </property>
+   <property name="text">
+    <string>User</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="profil">
+   <property name="geometry">
+    <rect>
+     <x>1620</x>
+     <y>55</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/images/img/pp_profil.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>129</y>
+     <width>1920</width>
+     <height>1100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QScrollArea{
+background:transparent;
+border:none;}
+
+            }
+            QScrollBar:vertical {
+                background:transparent;
+                width: 15px;
+                margin: 0px 0px 0px 0px;
+            }
+            QScrollBar::handle:vertical {
+;
+;
+	background-color: rgb(213, 224, 240);
+                min-height: 20px;
+                border-radius: 7px;
+            }
+            QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+                border: none;
+                background:transparent;
+            }
+            QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+                background:transparent;
+            }
+            QScrollBar:horizontal {
+                border: none;
+                background: none;
+                height: 8px;
+                margin: 0px 0px 0px 0px;
+            }
+            QScrollBar::handle:horizontal {
+                background: #bfbfbf;
+                min-width: 20px;
+                border-radius: 4px;
+            }
+            QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+                border: none;
+                background: none;
+            }
+            QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+                background: none;</string>
+   </property>
+   <property name="lineWidth">
+    <number>0</number>
+   </property>
+   <property name="widgetResizable">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-1958</y>
+      <width>1936</width>
+      <height>3050</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 0);</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QFrame" name="frame">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>2000</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: none</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <widget class="QPushButton" name="ads1_dummy_button">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>306</y>
+          <width>621</width>
+          <height>336</height>
+         </rect>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton#ads1_dummy_button{
+background-color: rgba(0, 0, 0, 70);
+padding: 0px 20px;
+border-radius: 32px;
+}
+
+QPushButton#ads1_dummy_button:pressed{
+background-color: rgba(0, 0, 0, 30);
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="ads1">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>305</y>
+          <width>621</width>
+          <height>341</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/img/ads1.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="ads2">
+        <property name="geometry">
+         <rect>
+          <x>880</x>
+          <y>306</y>
+          <width>777</width>
+          <height>341</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/img/ads2.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="ads2_dummy_button">
+        <property name="geometry">
+         <rect>
+          <x>880</x>
+          <y>306</y>
+          <width>776</width>
+          <height>338</height>
+         </rect>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton#ads2_dummy_button{
+background-color: rgba(0, 0, 0, 70);
+padding: 0px 20px;
+border-radius: 32px;
+}
+
+QPushButton#ads2_dummy_button:pressed{
+background-color: rgba(0, 0, 0, 30);
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="jadwal_judul">
+        <property name="geometry">
+         <rect>
+          <x>720</x>
+          <y>20</y>
+          <width>461</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Epilogue</family>
+          <pointsize>20</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/images/img/text_atas.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="jadwal_border">
+        <property name="geometry">
+         <rect>
+          <x>239</x>
+          <y>750</y>
+          <width>1419</width>
+          <height>671</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(225, 236, 254);
+border-radius:30px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="jadwal">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>790</y>
+          <width>1339</width>
+          <height>591</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:30px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="tujuan">
+        <property name="geometry">
+         <rect>
+          <x>733</x>
+          <y>136</y>
+          <width>191</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Epilogue</family>
+          <pointsize>15</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/*style for the QComboBox*/
+#tujuan{
+	border-radius:20px;
+
+	background-color: rgba(255, 255, 255, 0);
+}
+
+#tujuan::drop-down{
+	border:0px;
+}
+
+#tujuan:down-arrow{
+	width: 15px;
+	height: 15px;
+	margin-right: 15px
+}
+
+
+QComboBox QAbstractItemView{
+border:none;
+background-color: rgb(255, 255, 255);}</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Jakarta</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bali</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Semarang</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Solo</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QPushButton" name="cari">
+        <property name="geometry">
+         <rect>
+          <x>1416</x>
+          <y>90</y>
+          <width>218</width>
+          <height>114</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Poppins</family>
+          <pointsize>15</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton#cari{
+background-color: #2abaa1;
+color: rgb(255, 255, 255);
+padding: 0px 20px;
+border-radius: 32px;
+}
+
+QPushButton#cari:pressed{
+background-color: #219a85;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Cari</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="platform">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>72</y>
+          <width>1420</width>
+          <height>149</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+border-color: rgb(213, 213, 213);
+border-radius:40px;
+border : none;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="bgtujuan">
+        <property name="geometry">
+         <rect>
+          <x>650</x>
+          <y>76</y>
+          <width>361</width>
+          <height>140</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/img/untuk tujuan.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="bgberangkat">
+        <property name="geometry">
+         <rect>
+          <x>262</x>
+          <y>76</y>
+          <width>361</width>
+          <height>140</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/img/berangkat dari.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QDateEdit" name="dateEdit">
+        <property name="geometry">
+         <rect>
+          <x>1118</x>
+          <y>138</y>
+          <width>171</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Epilogue</family>
+          <pointsize>13</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+          <kerning>false</kerning>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QDateEdit {
+ border-radius: 2px; border: 0px solid #cccccc; 
+background-color: rgba(255, 255, 255, 0);
+
+}
+
+QDateEdit::drop-down { border: none; width: 30px;
+background-color: rgba(255, 255, 255, 0);
+
+ }
+
+QDateEdit::down-button {border: none; 
+background-color: rgba(255, 255, 255, 0);
+}
+
+
+QDateEdit::up-button {border: none; 
+background-color: rgba(255, 255, 255, 0);
+}
+
+QCalendarWidget {
+        background: transparent;
+    }
+    QCalendarWidget &gt; #dateEdit {
+        /* background for calendar dates */
+        background: rgba(204, 204, 204, 127);
+        /* 
+            default background for headers, can be overridden by using
+            QCalendarWidget.setHeaderTextFormat()
+        */
+        alternate-background-color: rgba(127, 127, 127, 127);}</string>
+        </property>
+        <property name="readOnly">
+         <bool>false</bool>
+        </property>
+        <property name="calendarPopup">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="bgtujuan_2">
+        <property name="geometry">
+         <rect>
+          <x>1030</x>
+          <y>76</y>
+          <width>361</width>
+          <height>140</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/img/tanggal berangkat.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="berangkat">
+        <property name="geometry">
+         <rect>
+          <x>345</x>
+          <y>136</y>
+          <width>191</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Epilogue</family>
+          <pointsize>15</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+          <kerning>false</kerning>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/*style for the QComboBox*/
+#berangkat{
+	border-radius:20px;
+
+	background-color: rgba(255, 255, 255, 0);
+}
+
+#berangkat::drop-down{
+	border:0px;
+}
+
+#berangkat:down-arrow{
+	width: 15px;
+	height: 15px;
+	margin-right: 15px
+}
+
+QComboBox QAbstractItemView{
+border:none;
+background-color: rgb(255, 255, 255);}
+</string>
+        </property>
+        <property name="inputMethodHints">
+         <set>Qt::ImhNone</set>
+        </property>
+        <property name="duplicatesEnabled">
+         <bool>false</bool>
+        </property>
+        <item>
+         <property name="text">
+          <string>Jakarta</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bali</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Semarang</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Solo</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLabel" name="text_jadwal_minggu_ini">
+        <property name="geometry">
+         <rect>
+          <x>239</x>
+          <y>670</y>
+          <width>431</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Epilogue ExtraBold</family>
+          <pointsize>18</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Jadwal Minggu Ini</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="bg_scroll">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>-150</y>
+          <width>1920</width>
+          <height>436</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/img/atas.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="ads3_perjalanan">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>1540</y>
+          <width>1421</width>
+          <height>601</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/img/ads3.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="judul_perjalanan_anda">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>1460</y>
+          <width>431</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Epilogue ExtraBold</family>
+          <pointsize>18</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Perjalanan Anda</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="ads4_review">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>2180</y>
+          <width>1421</width>
+          <height>361</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/img/review_home.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="ads5_about">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>2610</y>
+          <width>1421</width>
+          <height>261</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/images/img/about_home.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="jadwal_pandas">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>820</y>
+          <width>1271</width>
+          <height>531</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="copyright_kotak">
+        <property name="geometry">
+         <rect>
+          <x>-10</x>
+          <y>2809</y>
+          <width>1921</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(242, 247, 254);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <zorder>bg_scroll</zorder>
+       <zorder>ads1</zorder>
+       <zorder>ads2</zorder>
+       <zorder>ads1_dummy_button</zorder>
+       <zorder>ads2_dummy_button</zorder>
+       <zorder>jadwal_judul</zorder>
+       <zorder>jadwal_border</zorder>
+       <zorder>jadwal</zorder>
+       <zorder>platform</zorder>
+       <zorder>bgtujuan_2</zorder>
+       <zorder>cari</zorder>
+       <zorder>bgtujuan</zorder>
+       <zorder>bgberangkat</zorder>
+       <zorder>dateEdit</zorder>
+       <zorder>berangkat</zorder>
+       <zorder>tujuan</zorder>
+       <zorder>text_jadwal_minggu_ini</zorder>
+       <zorder>ads3_perjalanan</zorder>
+       <zorder>judul_perjalanan_anda</zorder>
+       <zorder>ads4_review</zorder>
+       <zorder>jadwal_pandas</zorder>
+       <zorder>copyright_kotak</zorder>
+       <zorder>ads5_about</zorder>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="bg_nutupi_scroll">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>142</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/images/img/atas_scroll.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>bgpolos</zorder>
+  <zorder>scrollArea</zorder>
+  <zorder>bg_nutupi_scroll</zorder>
+  <zorder>label</zorder>
+  <zorder>profil</zorder>
+ </widget>
+ <resources>
+  <include location="res_home.qrc"/>
+ </resources>
+ <connections/>
+</ui>
